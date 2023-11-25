@@ -1,12 +1,11 @@
 var typed = new Typed(".typing", {
   strings: [
     "Design Grafica",
-    "Desing",
+    "Design ",
+    "Festa",
     "Empresas",
-    "Dia das Mães",
     "Pascoa",
     "Natal",
-    "Dia dos Namorados",
   ],
   typespeed: 100,
   Backspeed: 60,

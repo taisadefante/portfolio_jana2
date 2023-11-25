@@ -301,6 +301,7 @@ body {
   display: block;
   border-bottom: 1px solid var(--bg-black-50);
   color: var(--text-black-900);
+  padding: 5px 15px;
 }
 
 .aside .nav li a.active {
@@ -309,6 +310,15 @@ body {
 
 .aside .nav li a i {
   margin-right: 15px;
+}
+
+.h3_nav {
+  color: #7aa6ed;
+  text-align: center;
+}
+
+menu > ul > li > a:hover {
+  background-color: gray;
 }
 
 .home {
@@ -355,17 +365,6 @@ h3.my-profession {
   position: relative;
 }
 
-.home-img::after {
-  content: "";
-  position: absolute;
-  height: 80px;
-  width: 80px;
-  border-bottom: 10px solid var(--skin-color);
-  border-right: 10px solid var(--skin-color);
-  right: -10px;
-  bottom: -40px;
-}
-
 .home-img::before {
   content: "";
   position: absolute;
@@ -375,6 +374,21 @@ h3.my-profession {
   border-left: 10px solid var(--skin-color);
   left: -20px;
   top: -40px;
+}
+
+.promocao {
+  background-color: #1854b4;
+  width: 500px;
+  height: 200px;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+.h3_promocao {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  color: #e8dfec;
 }
 
 .home-img img {
@@ -688,7 +702,7 @@ h2 {
 }
 
 .img-1 {
-  width: 200px;
+  width: 300px;
   height: 300px;
 }
 
@@ -820,9 +834,6 @@ h2 {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .home .home-img {
-    display: none;
-  }
 }
 
 @media (max-width: 767px) {
@@ -835,5 +846,10 @@ h2 {
   .about .about-content .personal-info {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+
+  .home .home-img {
+    margin-top: 100px;
+    margin-left: 30px;
   }
 }
